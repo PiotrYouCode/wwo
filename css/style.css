@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background: rgb(1, 48, 1);
+    max-width: 1000px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+   
+}
+
+.body__header {
+    background-color: rgb(190, 179, 179);
+    color: rgb(51, 32, 32);
+    padding: 2%;
+    font-size: 50px;
+    border: 5px solid rgb(73, 68, 68);
+    border-radius: 20%;
+    font-weight: bold;
+}
+
+.navigation__list {
+    padding-bottom: 50px;
+}
+
+.navigation__link {
+    color: rgb(6, 49, 13);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: silver;
+    transform: scale(1);
+    transition-duration: 1s;
+}
+
+.navigation__Item {
+    display: inline-flex;
+    margin: 5px 10px;
+    padding: 20px 70px;
+    background-color: #2fb3b885;
+    border: bisque 2px;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+.section__section--history {
+    background-color: rgb(137, 214, 127);
+    margin: 5px;
+    padding: 5px;
+    border: lightcyan 2px;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+.navigation_img{
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 10%;
+}
+
+.section__section--discography{
+    background-color: rgb(219, 205, 204);
+    margin: 5px;
+    padding: 5px;
+    border: lightcyan 2px;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 7px;
+
+}
+
+.table__Cell {
+    border: 5px solid #034411;
+    padding: 20px;
+    text-align: center;
+  
+}
+
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+   
+}
+
+.navigation__Item--button{
+    display: inline-flex;
+   
+  }
+
+.navigation__link--button{
+    color: rgb(6, 49, 13);
+    background-color: #2fb3b885;
+    margin: 5px 10px;
+    padding: 20px 70px;
+    border-radius: 7px;
+    font-weight: bold;
+
+   }
+
+  .other{
+      background-color: beige;
+  }
