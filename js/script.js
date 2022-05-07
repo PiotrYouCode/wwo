@@ -1,10 +1,16 @@
-let button = document.querySelector(".navigation__link--button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+{
+    const onChangeBackgroundClick = () => {
+        const body = document.querySelector(".body");
+        const themeName = document.querySelector(".themeName");
+        body.classList.toggle("other");
+        themeName.innerText = body.classList.contains("other") ? "zielony" : "inny";
+    }
 
-button.addEventListener("click", () => {
-    body.classList.toggle("other");
+    const init = () => {
+        const button = document.querySelector(".navigation__link--button");
+        button.addEventListener("click", onChangeBackgroundClick);
+    }
 
-    themeName.innerText = body.classList.contains("other") ? "zielony" : "inny";
+    init();
 
-});
+};
